@@ -27,19 +27,7 @@
         <br>
         <input type="image" src="forras/kuka.jpg" alt="kuka" name="kuka">
     </form>
-    <?php
-        //var_dump(($_POST))
-        if (isset($_POST["szemetem"])) {
-            $kivSzemet=$_POST["szemetem"];
-            if ($kivSzemet=="papír" || $kivSzemet == "tejes doboz"){
-                echo "Kék színű gyüjtő";
-            }
-            elseif($kivSzemet=="bab konzerv" || $kivSzemet== "nylon csomagolás"){
-                echo "Sárga gyűjtő";
-            }
-            else echo "Nem színes kuka";
-        }
-       ?>
+    <a href="vizVedelme.php">Vízvédelme</a>
 </body>
 
 </html>

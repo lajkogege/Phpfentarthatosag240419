@@ -11,11 +11,12 @@
 <body>
     <form action="vizBackend.php" method="post">
         <label for="v">A folyadékáram sebessége: </label>
-        <input type="number" name="sebbeseg" id="v">
+        <input type="number" name="sebbeseg" id="v" value="1"> <br>
 
         <label for="A">A folyadékáram keresztmetszette (m2): </label>
-        <input type="number" name="keresztMetszette" id="A">
+        <input type="number" name="keresztMetszette" id="A" value="1">
         <input type="submit" value="Számol" name="szamol">
+     
     </form>
 </body>
 
