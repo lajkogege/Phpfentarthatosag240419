@@ -1,0 +1,28 @@
+body {
+	margin: 50px;
+	font-size: 1.2em;
+}
+
+#tartalom
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+table, td, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+	
+}
+
+td, th{
+    text-align: center;
+	padding: 10px;
+}
+
+input[type="image"]
+{
+    width: 100px;
+    height: auto;
+}
+
